@@ -6,7 +6,7 @@ import socket
 
 
 #connect to local host. TODO: change...
-HOST = '127.0.0.1'   
+HOST = '192.168.0.2'   
 PORT = 6283
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
